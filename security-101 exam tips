@@ -1,0 +1,17 @@
+-- Understand the 3 models:  
+##### CIA (Confidentiality, Integrity, Availability)
+##### AAA (Authenticatino, Authorization, Accounting)
+##### Non-repudiation (cant deny)
+
+Confidentiailty : how can you keep your aws account confidential, you dont want it open to the world
+##### AWS Services:  IAM, MFA
+Integrity :
+##### Certificate Manager - verifies the organization you are connecting with says who it is, otherwise wouldnt have had SSL certificates issud
+##### IAM, Bucket Policies - control the integrity of S3 buckets (for example)
+Availability
+##### Auto-Scaling, Multi AZ
+
+-- AAA Model
+##### Authentication - IAM
+##### Authorization - Policies
+##### Accounting - Cloudtrail
